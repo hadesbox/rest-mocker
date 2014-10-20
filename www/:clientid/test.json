@@ -1,0 +1,27 @@
+{
+	"result" : {
+			"code": 200,
+			"info": "'OK'"
+	},
+	"data": {
+		"clientid":"",
+		"size": "1",
+		"stats": [
+			{	
+				"date": "20140",
+				"histogram": [
+					{
+						"label" : "same_zipcode",
+						"num_tx" : "{{integer 190 200}}",
+						"num_cards" : "{{float 170 180}}",
+						"avg" : { 
+							"min": 0, 
+							"max": 60, 
+							"fixed": 2 
+						}
+					}
+				]
+			}
+		]
+	}
+}

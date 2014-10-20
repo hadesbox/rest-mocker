@@ -1,0 +1,22 @@
+{
+	"result" : {
+			"code": 200,
+			"info": "OK"
+	},
+	"data": {
+		"size": "1",
+		"stats": 
+			{	
+				"date": "{{age}}",
+				"date": "{{age 'child'}}",
+				"date": "{{age 'adult'}}",
+				"histogram": 
+					{
+						"label" : "same_zipcode",
+						"num_tx" : "{{float 190 200}}",
+						"num_cards" : "{{integer 170 180}}",
+						"avg" : ""
+					}
+			}		
+	}
+}

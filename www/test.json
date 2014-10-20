@@ -1,0 +1,23 @@
+{
+    "result": {
+        "code": 200,
+        "info": "OK"
+    },
+    "data": {
+        "age": "{{age}}",
+        "size": "1",
+        "fullname" : "{{chance 'domain'}}",
+        "email" : "{{chance 'email'}}",
+        "ip" : "{{chance 'ip'}}",
+        "address" : "{{chance 'address'}}",
+        "city" : "{{chance 'city'}}",
+        "stats": [{
+                "date": "{{integer 1 20 }}",
+                "histogram": [{
+                    "label": "same_zipcode {{age}}",
+                    "num_tx": "{{float 1 20 }}"
+                }
+            ]
+        }]
+    }
+}
